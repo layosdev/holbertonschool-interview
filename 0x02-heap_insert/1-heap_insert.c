@@ -123,7 +123,7 @@ binary_tree_t *insert_node(binary_tree_t *tree, size_t level, int value)
 	{
 		right = insert_node(tree->right, level, value);
 	}
-	else 
+	else
 	{
 		return (left);
 	}
