@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Module to compute metrics from logs.
-"""
+"""Log parsing"""
 from sys import stdin
 
 total = 0
