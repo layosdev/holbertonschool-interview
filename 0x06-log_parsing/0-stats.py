@@ -39,4 +39,3 @@ finally:
     for (code, count) in sorted(stats.items()):
         if count > 0:
             print('{}: {}'.format(code, count))
-
