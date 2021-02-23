@@ -8,7 +8,7 @@
 #define SLIDE_RIGHT 1
 
 int slide_line(int *line, size_t size, int direction);
-void to_left(int *line, size_t size);
-void to_right(int *line, size_t size);
+void left_move(int *line, size_t size);
+void right_move(int *line, size_t size);
 
 #endif /* LISTS_H */
