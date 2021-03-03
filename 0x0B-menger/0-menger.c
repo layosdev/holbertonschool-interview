@@ -12,7 +12,7 @@ void menger(int level)
 	int i, j, k, m;
 	int sw = 1, depth;
 
-	if (level)
+	if (!level)
 	{
 		return;
 	}
