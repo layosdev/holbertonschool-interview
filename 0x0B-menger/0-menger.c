@@ -32,15 +32,13 @@ void menger(int level)
 					printf("#");
 					break;
 				}
-				else if (k % 3 == 1 && m % 3 == 1)
+				if (k % 3 == 1 && m % 3 == 1)
 				{
 					printf(" ");
 					break;
-				} else
-				{
-					k /= 3;
-					m /= 3;
 				}
+				k /= 3;
+				m /= 3;
 			}
 		}
 		printf("\n");
