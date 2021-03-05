@@ -12,10 +12,8 @@ void menger(int level)
 	int i, j, k, m;
 	int sw = 1, depth;
 
-	if (!level)
-	{
+	if (level < 0)
 		return;
-	}
 
 	depth = pow(3, level);
 
