@@ -20,7 +20,7 @@ int advanced_binary(int *array, size_t size, int value)
 }
 
 /**
- * binary - binary search
+ * binary - binary searc
  *
  * @array: array
  * @init: init point
